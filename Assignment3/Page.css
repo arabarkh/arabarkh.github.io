@@ -7,12 +7,10 @@ body {
     /*border: 3px solid red;*/
 }
 a {
-    color:1px solid #454545;
     text-decoration: none;
 }
-a:visited, a:active {
-    color:1px solid #000000;
-    text-decoration: none;
+a:hover {
+    color: #000;
 }
 .Box {
     margin: 0 auto;
@@ -28,6 +26,7 @@ h1 {
     font-weight: 150;
 }
 .Box p {
+    color:#747171;
     font-size: 80%;
     font-style: italic;
     font-weight: 30;
@@ -35,7 +34,7 @@ h1 {
 .Pictures {
     margin: 0 auto;
     margin-top: 70px;
-    width: 700px;
+    width: auto;
     /*border: 3px solid green;*/
 
 }
