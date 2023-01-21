@@ -1,35 +1,30 @@
 body {
     margin: 0 auto;
-    width: 700px;
+    width: 680px;
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     /*border: 3px solid red;*/
 }
-a {
-    text-decoration: none;
-}
-a:hover {
-    color: #000;
-}
 .Box {
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 30px;
     width: 575px;
-    height: 110px;
-    border: 1px solid #454545;
+    height: 100px;
+    border: 2px solid #6c6b6b;
 }
 h1 {
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 275%;
+    font-size: 260%;
     font-weight: 150;
+    color: #494545;
 }
-.Box p {
-    color:#747171;
-    font-size: 80%;
+p {
+    font-size: 70%;
     font-style: italic;
-    font-weight: 30;
+    font-weight: 20;
+    color:#747171;
 }
 .Pictures {
     margin: 0 auto;
@@ -48,6 +43,8 @@ h1 {
     margin-bottom: 5px;
     margin-left: -590px;
     font-size: 150%;
+    font-style: normal;
+    color: #494545;
 }
 .FooterBox {
     margin: 0 auto;
@@ -65,4 +62,11 @@ footer {
     margin-top: 20px;
     margin-left: 20px;
     width: 15px;
+}
+a {
+    text-decoration: none;
+    color: #6c6b6b;
+}
+.active{
+    color: #000;
 }
