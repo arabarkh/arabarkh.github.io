@@ -68,15 +68,14 @@ a {
     text-decoration: none;
     color: #6c6b6b;
 }
-.Pictures p {
-   margin: 0 auto;
-   text-align: left;
-   margin-top: -30px;
-   margin-left: 5px;
-   /*border: 3px solid purple;*/
-}
 .active{
     color: #000;
+}
+.Text {
+    margin: 0 auto;
+    margin-top: -32px;
+    margin-right: -3%;
+    /*border: 3px solid purple;*/
 }
 img:hover {
     opacity: 0.5;
